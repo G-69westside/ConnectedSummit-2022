@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .input__text input,
 .input__tel input,
 .input__email input {
@@ -5,13 +11,12 @@
   width: 250px;
   margin: 5px 5px;
   border: 2px solid #ccc;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
-
 
 .input__text input:focus,
 .input__tel input:focus,
-.input__email input:focus{
-
-    border:2px solid green;
+.input__email input:focus {
+  border: none;
+  
 }
