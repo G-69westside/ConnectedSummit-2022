@@ -8,6 +8,7 @@
 .contact__form {
   width: 50%;
   position: relative;
+  float: left;
 }
 .contact__form h1 {
   font-size: 1.5rem;
