@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+.contact__form {
+  width: 50%;
+}
+
 .input__text input,
 .input__tel input,
 .input__email input {
   padding: 15px;
-  width: 250px;
+  width: 300px;
   margin: 5px 5px;
   border: 2px solid #ccc;
   font-size: 1.2rem;
@@ -18,5 +22,4 @@
 .input__tel input:focus,
 .input__email input:focus {
   border: none;
-  
 }
