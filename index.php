@@ -14,107 +14,10 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="contact__form clearfix">
-      <form action="">
-        <h1>For Individuals</h1>
-        <div class="input__text">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Full Names (Required)"
-            required
-          />
-        </div>
-        <div class="input__email">
-          <input
-            type="email"
-            name=""
-            id=""
-            placeholder="Email Address (Required)"
-            required
-          />
-        </div>
-        <div class="input__tel">
-          <input
-            type="tel"
-            name=""
-            id=""
-            placeholder="Your Number (Required)"
-            required
-          />
-        </div>
-        <div class="input__text">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Company Name(Optional)"
-          />
-        </div>
-        <div class="input__option">
-          <select name="" id="">
-            <option>Select Attendance Day</option>
-            <option>Entire Event</option>
-            <option>Day One</option>
-            <option>Day Two</option>
-            <option>Day Three</option>
-            <option>Day Four</option>
-          </select>
-        </div>
-        <div class="input__submit"><input type="submit" value="SUBMIT" /></div>
-      </form>
-    </div>
-    <div class="contact__form clearfix">
-      <form action="">
-        <h1>For Pavilion</h1>
-        <div class="input__text">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Name of the Company (Required)"
-            required
-          />
-        </div>
-        <div class="input__text">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Name of Contact Person (Required)"
-            required
-          />
-        </div>
-        <div class="input__email">
-          <input
-            type="email"
-            name=""
-            id=""
-            placeholder="Email Address (Required)"
-            required
-          />
-        </div>
-        <div class="input__tel">
-          <input
-            type="tel"
-            name=""
-            id=""
-            placeholder="Your Number (Required)"
-            required
-          />
-        </div>
-        <div class="input__text">
-          <input
-            type="text"
-            name=""
-            id=""
-            placeholder="Number of Delegates"
-            required
-          />
-        </div>
-        <div class="sub__contact__form">
-          <h3>Add Delegates Details</h3>
+    <div class="contact__form__wrap">
+      <div class="contact__form clearfix">
+        <form action="">
+          <h1>For Individuals</h1>
           <div class="input__text">
             <input
               type="text"
@@ -138,8 +41,16 @@
               type="tel"
               name=""
               id=""
-              placeholder="Phone Number (Required)"
+              placeholder="Your Number (Required)"
               required
+            />
+          </div>
+          <div class="input__text">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Company Name(Optional)"
             />
           </div>
           <div class="input__option">
@@ -152,11 +63,102 @@
               <option>Day Four</option>
             </select>
           </div>
-        </div>
-        <div class="input__submit">
-          <input type="submit" value="SUBMIT" />
-        </div>
-      </form>
+          <div class="input__submit"><input type="submit" value="SUBMIT" /></div>
+        </form>
+      </div>
+      <div class="contact__form clearfix">
+        <form action="">
+          <h1>For Pavilion</h1>
+          <div class="input__text">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Name of the Company (Required)"
+              required
+            />
+          </div>
+          <div class="input__text">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Name of Contact Person (Required)"
+              required
+            />
+          </div>
+          <div class="input__email">
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="Email Address (Required)"
+              required
+            />
+          </div>
+          <div class="input__tel">
+            <input
+              type="tel"
+              name=""
+              id=""
+              placeholder="Your Number (Required)"
+              required
+            />
+          </div>
+          <div class="input__text">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Number of Delegates"
+              required
+            />
+          </div>
+          <div class="sub__contact__form">
+            <h3>Add Delegates Details</h3>
+            <div class="input__text">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Full Names (Required)"
+                required
+              />
+            </div>
+            <div class="input__email">
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Email Address (Required)"
+                required
+              />
+            </div>
+            <div class="input__tel">
+              <input
+                type="tel"
+                name=""
+                id=""
+                placeholder="Phone Number (Required)"
+                required
+              />
+            </div>
+            <div class="input__option">
+              <select name="" id="">
+                <option>Select Attendance Day</option>
+                <option>Entire Event</option>
+                <option>Day One</option>
+                <option>Day Two</option>
+                <option>Day Three</option>
+                <option>Day Four</option>
+              </select>
+            </div>
+          </div>
+          <div class="input__submit">
+            <input type="submit" value="SUBMIT" />
+          </div>
+        </form>
+      </div>
     </div>
     <script type="text/javascript">
 

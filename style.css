@@ -4,18 +4,17 @@
   box-sizing: border-box;
   font-family: Montserrat Alternates, sans-serif;
 }
-
 .contact__form {
   width: 50%;
   position: relative;
-  float: left;
+  max-width: 920px;
+  margin: 0 auto;
 }
 .contact__form h1 {
   font-size: 1.5rem;
   margin-left: 28px;
   font-weight: 500px;
 }
-
 .input__text input,
 .input__tel input,
 .input__email input,
@@ -27,13 +26,11 @@
   border: 2px solid #ccc;
   font-size: 1.2rem;
 }
-
 .input__text input:focus,
 .input__tel input:focus,
 .input__email input:focus {
   border: none;
 }
-
 .input__submit {
   padding: 15px 0;
 }
@@ -47,14 +44,20 @@
   color: #fff;
   cursor: pointer;
 }
-.sub__contact__form{
-  margin:2px 34px;
-  display:none;
+.sub__contact__form {
+  margin: 2px 34px;
+  display: none;
 }
-
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.input__text,
+.input__email,
+.input__tel,
+.input__option,
+.input__submit {
+  display: inline;
 }
