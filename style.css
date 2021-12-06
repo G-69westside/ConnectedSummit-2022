@@ -47,6 +47,9 @@
   color: #fff;
   cursor: pointer;
 }
+.sub__contact__form{
+  display: none;
+}
 
 .clearfix::after {
   content: "";
