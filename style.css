@@ -48,8 +48,9 @@
   cursor: pointer;
 }
 .sub__contact__form{
-  display: none;
+  margin:2px 34px;
 }
+
 
 .clearfix::after {
   content: "";
